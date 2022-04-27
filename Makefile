@@ -13,3 +13,8 @@ clean:
 test: clean
 	@echo run test
 	@pytest -v
+
+
+style:
+	@isort .
+	@black .
